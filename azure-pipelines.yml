@@ -5,6 +5,7 @@ trigger:
 
 pool:
   name: Default
+  vmImage: "windows-latest"
 
 variables:
   buildConfiguration: 'Release'
